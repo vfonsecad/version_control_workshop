@@ -10,7 +10,7 @@ Please make sure to accept the collaboration invite, then you are **ready to go*
 
 ### During the session
 
-Please check out the [tasks list](https://github.com/marcodallavecchia/version_control_workshop/blob/main/tasks/tasks.md) and choose a task of your interest. We will be using these tasks during the session to teach you how to properly work on a feature and collaborate effectively with others using Git and Github.
+Please check out the [tasks list](https://github.com/vfonsecad/version_control_workshop/blob/main/tasks/tasks.md) and choose a task of your interest. We will be using these tasks during the session to teach you how to properly work on a feature and collaborate effectively with others using Git and Github.
 
 
 ### Need help?
