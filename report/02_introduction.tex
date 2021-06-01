@@ -1,0 +1,17 @@
+\section{Introduction}
+
+In this workshop we aim at teaching the fundamentals and good practices of version control, data and project management using Git and Github. We took a simple case in which we create some data, we analyze it and we generate some figures to include in this report. All was done to illustrate the workflow and structure of how a real project could be designed.
+
+You can see that the entirety of this project is well-structured and is \textbf{entirely modular} so that proper Git branches can be created according to the \textit{features} you are working on.
+
+We chose Python and \LaTeX\xspace for this project because we believe are important and common tools to learn and use for scientific use and they are perfect for version control applications. \textbf{Importantly}: they are both simple textual files and they can be annotated and commented adequately.
+
+Take a look at the current folder structure:
+
+\begin{itemize}
+    \item We separated data, the scripts and the report. Giving it an INPUT $\rightarrow$ PROCESS $\rightarrow$ OUTPUT structure.
+    \item Both the report text files and the Python files are divided in individual scripts according to their `functions'.
+    \item All files are properly numbered, with descriptive names and have annotations to describe their purpose and sections.
+\end{itemize}
+
+It's important to notice that when you are working with version control, only the \underline{fundamental files that generate everything else should be controlled}. For example this tex file creates a PDF file and many other intermediate files when compiled, but these are not necessary \textbf{to reproduce} this work, so we excluded them from the repository with a clever use of the .gitignore file.
