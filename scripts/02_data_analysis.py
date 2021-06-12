@@ -28,17 +28,17 @@ df = pd.read_csv(data_folder + "data.csv", sep = ";")
 
 fig, ax = plt.subplots(1,2,figsize = (17,8))
 
-ax[0].hist(df["Y"], bins = 20)
+ax[0].hist(df["Y"], bins = 100)
 ax[0].set_xlabel("Y")
 ax[0].set_ylabel("counts")
-ax[0].grid()
 
-ax[1].scatter(df["X"], df["Y"], c = "purple", s = 90, marker = "*")
+
+ax[1].scatter(df["X"], df["Y"], c = "orange", s = 90, marker = "*")
 ax[1].grid()
 ax[1].set_ylabel("Y")
 ax[1].set_xlabel("X")
 
-fig.suptitle("Exploratory analysis")
+fig.suptitle("EXPLORATORY ANALYSIS")
 
 plt.savefig(report_folder + "/figures/fig_exploratory_analysis.pdf")
 
