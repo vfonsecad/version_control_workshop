@@ -19,6 +19,15 @@ data_folder = project_folder + "/data/"
 report_folder = project_folder + "/report/"
 
 # ---- data import
+# ---- data import
+# ---- data import
+# ---- data import
+# ---- data import
+# ---- data import
+# ---- data import
+# ---- data import
+# ---- data import
+
 
 df = pd.read_csv(data_folder + "data.csv", sep = ";")
 

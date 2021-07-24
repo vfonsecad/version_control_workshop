@@ -18,6 +18,15 @@ data_folder = project_folder + "/data/"
 report_folder = project_folder + "/report/"
 
 # ---- data simulation
+# ---- data simulation
+# ---- data simulation
+# ---- data simulation
+# ---- data simulation
+# ---- data simulation
+# ---- data simulation
+# ---- data simulation
+# ---- data simulation
+
 
 n = 100
 X = np.random.normal(loc = 2, scale = 0.4, size=n)
